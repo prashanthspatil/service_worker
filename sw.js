@@ -4,8 +4,8 @@ var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
   "https://prashanthspatil.github.io/service_worker/index.html",
   "https://prashanthspatil.github.io/service_worker/manifest.json",
-  "https://prashanthspatil.github.io/service_worker/css/toast.css",
-  "https://prashanthspatil.github.io/service_worker/css/style.css",
+  "https://prashanthspatil.github.io/service_worker/toast.css",
+  "https://prashanthspatil.github.io/service_worker/style.css",
   "https://prashanthspatil.github.io/service_worker/pwa.js",
   "https://prashanthspatil.github.io/service_worker/images/icons/icon-144x144.png",
   "https://prashanthspatil.github.io/service_worker/logo.png",
