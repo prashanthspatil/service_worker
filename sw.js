@@ -8,7 +8,7 @@ var URLS = [                            // Add URL you want to cache in this lis
   "https://prashanthspatil.github.io/service_worker/style.css",
   "https://prashanthspatil.github.io/service_worker/pwa.js",
   "https://prashanthspatil.github.io/service_worker/images/icons/icon-144x144.png",
-  "https://prashanthspatil.github.io/service_worker/logo.png",
+  "https://prashanthspatil.github.io/service_worker/images/logo.png",
 ]
 
 // Respond with cached resources
