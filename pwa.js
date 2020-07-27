@@ -1,16 +1,6 @@
 const container = document.querySelector(".container")
 const technologies = [
-  { name: "Bitbucket", image: "images/fakeprofile/bitbucket.png" },
-  { name: "CSS", image: "images/fakeprofile/css.png" },
-  { name: "HTML", image: "images/fakeprofile/html.png" },
-  { name: "PHP", image: "images/fakeprofile/php.png" },
-  { name: "Github", image: "images/fakeprofile/github.png" },
-  { name: "Laravel", image: "images/fakeprofile/laravel.png" },
-  { name: "Swift", image: "images/fakeprofile/swift.jpg" },
-  { name: "React", image: "images/fakeprofile/react.png" },
-  { name: "Bootstrap", image: "images/fakeprofile/bootstrap.png" },
-  { name: "Vue", image: "images/fakeprofile/vue.png" },
-  { name: "Node", image: "images/fakeprofile/node.png" },
+  { name: "React", image: "images/logo.png" },
 ]
 
 const showTechnologies = () => {

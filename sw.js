@@ -1,25 +1,14 @@
-var APP_PREFIX = 'prashanth_profile'  // Identifier for this app (this needs to be consistent across every cache update)
+var APP_PREFIX = 'prashanth_sw'  // Identifier for this app (this needs to be consistent across every cache update)
 var VERSION = 'v1.0'  // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
-  "https://prashanthspatil.github.io/profile/",
-  "https://prashanthspatil.github.io/profile/pwa.html",
-  "https://prashanthspatil.github.io/profile/css/pwa/style.css",
-  "https://prashanthspatil.github.io/profile/css/toast.css",
-  "https://prashanthspatil.github.io/profile/pwa.js",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/bitbucket.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/bootstrap.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/css.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/github.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/html.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/js.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/laravel.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/php.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/react.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/swift.jpg",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/vue.png",
-  "https://prashanthspatil.github.io/profile/images/fakeprofile/node.png",
-  "https://prashanthspatil.github.io/profile/manifest.json",
+  "https://prashanthspatil.github.io/service_worker/index.html",
+  "https://prashanthspatil.github.io/service_worker/manifest.json",
+  "https://prashanthspatil.github.io/service_worker/css/toast.css",
+  "https://prashanthspatil.github.io/service_worker/css/style.css",
+  "https://prashanthspatil.github.io/service_worker/pwa.js",
+  "https://prashanthspatil.github.io/service_worker/images/icons/icon-144x144.png",
+  "https://prashanthspatil.github.io/service_worker/logo.png",
 ]
 
 // Respond with cached resources
